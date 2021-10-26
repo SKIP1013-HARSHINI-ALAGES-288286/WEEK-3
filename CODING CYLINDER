@@ -1,0 +1,26 @@
+package numericData;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+	
+		double rad = 1.2;
+		double height = 5.0;
+		double surfaceArea;
+		double baseArea;
+		double volume;
+		final double pi = 3.141559265;
+		
+		baseArea = 2.0 * pi * rad;
+		surfaceArea = (2.0 * pi * rad * height) + (2.0 * pi * rad *rad);
+		volume = baseArea * height;
+		
+		System.out.println("The base area is " + baseArea);
+		System.out.println("The surface area is " + surfaceArea);
+		System.out.println("The volume is " + volume);
+		
+		
+
+	}
+
+}
